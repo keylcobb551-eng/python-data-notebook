@@ -1,0 +1,9 @@
+def accumulate(n=100):
+    one = 0
+    for i in range(1,n+1):
+        one = i + one
+        
+    print(f"由1到{n}的和为{one}")    
+accumulate(10) #将10换成想要加到的数（包含此数）
+
+    
